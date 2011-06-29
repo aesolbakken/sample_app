@@ -24,6 +24,12 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="spork" version="0.9.0.rc8" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="sqlite3" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
@@ -38,6 +44,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/.bundle" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -77,6 +84,7 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-mocks (v2.6.0, /usr/local/lib/ruby/gems/1.9.1/gems/rspec-mocks-2.6.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] nokogiri (v1.4.6, /usr/local/lib/ruby/gems/1.9.1/gems/nokogiri-1.4.6)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec (v2.6.0, /usr/local/lib/ruby/gems/1.9.1/gems/rspec-2.6.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] spork (v0.9.0.rc8, /usr/local/lib/ruby/gems/1.9.1/gems/spork-0.9.0.rc8)" level="application" />
   </component>
 </module>
 
